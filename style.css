@@ -11,7 +11,7 @@ body {
     color: #222;
 }
 
-/* LOGIN AND RESULT */
+
 
 .container {
     min-height: 100vh;
@@ -85,7 +85,7 @@ button:hover {
     font-size: 14px;
 }
 
-/* QUIZ */
+
 
 .quiz-container {
     display: none;
@@ -123,7 +123,6 @@ header h1 {
     font-weight: bold;
 }
 
-/* PROGRESS BAR */
 
 .progress-container {
     width: 100%;
@@ -141,7 +140,7 @@ header h1 {
     transition: 0.3s;
 }
 
-/* QUESTION */
+
 
 .question-card {
     background: white;
@@ -191,7 +190,7 @@ header h1 {
     font-size: 18px;
 }
 
-/* RESULT */
+
 
 #resultPage {
     display: none;
@@ -231,7 +230,7 @@ header h1 {
     margin-bottom: 25px;
 }
 
-/* MOBILE */
+
 
 @media (max-width: 600px) {
 
