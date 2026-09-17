@@ -1,6 +1,4 @@
-// ===============================
-// INDIAN CRICKET QUIZ
-// ===============================
+
 
 const questions = [
     {
@@ -225,16 +223,10 @@ const questions = [
 ];
 
 
-// ===============================
-// VARIABLES
-// ===============================
 
 let username = "";
 
 
-// ===============================
-// START QUIZ
-// ===============================
 
 function startQuiz() {
 
@@ -258,9 +250,6 @@ function startQuiz() {
 }
 
 
-// ===============================
-// LOAD QUESTIONS
-// ===============================
 
 function loadQuestions() {
 
@@ -310,9 +299,7 @@ function loadQuestions() {
 }
 
 
-// ===============================
-// SUBMIT QUIZ
-// ===============================
+
 
 function submitQuiz() {
 
@@ -353,9 +340,6 @@ function submitQuiz() {
 }
 
 
-// ===============================
-// SHOW RESULT
-// ===============================
 
 function showResult(score) {
 
@@ -394,9 +378,6 @@ function showResult(score) {
 }
 
 
-// ===============================
-// RESTART QUIZ
-// ===============================
 
 function restartQuiz() {
 
@@ -409,9 +390,7 @@ function restartQuiz() {
 }
 
 
-// ===============================
-// PROGRESS BAR
-// ===============================
+
 
 function updateProgress() {
 
