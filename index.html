@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Cricket Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LOGIN PAGE -->
+    <div class="container" id="loginPage">
+        <div class="login-box">
+            <div class="cricket-icon">🏏</div>
+
+            <h1>Indian Cricket Quiz</h1>
+            <p>Test your knowledge of Indian cricket!</p>
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter your name"
+            >
+
+            <button onclick="startQuiz()">Start Quiz</button>
+
+            <p class="error" id="loginError"></p>
+        </div>
+    </div>
+
+
+    <!-- QUIZ PAGE -->
+    <div class="quiz-container" id="quizPage">
+
+        <header>
+            <div>
+                <h1>🏏 Indian Cricket Quiz</h1>
+                <p id="welcomeUser"></p>
+            </div>
+
+            <div class="score-box">
+                Question <span id="currentQuestion">1</span>/20
+            </div>
+        </header>
+
+        <div class="progress-container">
+            <div id="progressBar"></div>
+        </div>
+
+        <form id="quizForm"></form>
+
+        <button class="submit-btn" onclick="submitQuiz()">
+            Submit Quiz
+        </button>
+
+    </div>
+
+
+    <!-- RESULT PAGE -->
+    <div class="container" id="resultPage">
+
+        <div class="result-box">
+
+            <div class="trophy">🏆</div>
+
+            <h1>Quiz Completed!</h1>
+
+            <p class="result-user" id="resultUser"></p>
+
+            <div class="result-circle">
+                <span id="finalScore">0</span>
+                <small>/ 20</small>
+            </div>
+
+            <h2 id="resultMessage"></h2>
+
+            <p id="percentage"></p>
+
+            <button onclick="restartQuiz()">Play Again</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
